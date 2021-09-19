@@ -1,0 +1,33 @@
+.task {
+  background: #f4f4f4;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+
+
+  &:hover{
+        box-shadow: 0 0 0 0 transparent, 0 0 0 0 transparent, 0 2px 15px silver;
+    }
+
+  &.reminder {
+    border-left: 5px solid green;
+  }
+
+  .task-icon {
+    >* {
+      padding-left: 5px ;
+      align-items: center;
+    }
+  }
+  h3, p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    fa-icon {
+      color: pink;
+    }
+  }
+
+
+}
